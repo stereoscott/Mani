@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body{
+	height:100%;
+}
+body{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:center;
+	font-size:12px;
+	line-height:18px;
+	color:#666666;
+}
+br.clear {
+	clear: both;
+	width: 0;
+	height: 0;
+	border: none;
+	background: inherit;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-size:20px;
+	margin-bottom:8px;
+	line-height:20px;
+	color:#1B4F27;
+}
+p{
+	margin:0 0 12px 0;
+}
+div{
+	display:block;
+}
+a{
+	color:#1B4F27;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:hover{
+	color:#cc6600;
+}
+#pagewrap{
+	min-height:100%;
+	width:100%;
+	position:relative;
+}
+#headerwrap{
+	width:100%;
+	height:148px;
+	border-top:2px solid #1B4F27;
+	border-bottom:3px solid #1B4F27;
+	background:url(../img/bg_header.jpg) repeat #efede3;
+	margin-bottom:28px;
+}
+.wrap{
+	width:1040px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#header{
+	height:148px;
+	position:relative;
+}
+#logo{
+	position:absolute;
+	width:112px;
+	height:112px;
+	left:8px;
+	top:18px;
+}
+#nav{
+	width:782px;
+	font-size:25px;
+	left:138px;
+	top:104px;
+	position:absolute;
+	line-height:29px;
+}
+#nav a{
+	margin-right:44px;
+	display:block;
+	float:left;
+}
+#nav a.end{
+	margin-right:0;
+}
+#tag{
+	right:130px;
+	top:30px;
+	position:absolute;
+	text-align:right;
+	width:200px;
+	color:#d4cdc2;
+	letter-spacing:1px;
+	font-size:18px;
+	font-weight:lighter;
+}
+#tag span{
+	color:#aaba9e;
+}
+#main{
+	margin-left:138px;
+	width:782px;
+}
+#photo{
+	height:286px;
+	margin-bottom:28px;
+}
+#colwrap{
+	height:160px;
+	padding-bottom:118px;
+}
+.col{
+	width:250px;
+	float:left;
+	border-right:5px solid #efede3;
+	height:160px;
+}
+#end{
+	border:none;
+}
+#mid{
+	width:272px;
+}
+.colcontent{
+	padding:0 20px 0 0;
+	text-align:left;
+}
+#midcontent{
+	padding-left:20px;
+}
+#endcontent{
+	padding:0 0 0 20px;
+}
+#bottom{
+	width:100%;
+	height:90px;
+	background:url(../img/bottom.jpg) center repeat-x;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+#footer{
+	width:782px;
+	margin-left:138px;
+	margin-top:26px;
+	text-align:left;
+}
+.olive{
+	color:#ADB291;
+}
