@@ -1,0 +1,3 @@
+Fonts
+BankGothic is used in the nav. The other font used helvetica neue. Helvetica will do fine, but set the style up as:
+font-family:"Helvetica Neue",Helvetica, Arial, sans-serif;
