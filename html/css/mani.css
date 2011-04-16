@@ -1,0 +1,138 @@
+/*
+	Mani Osteria & Bar
+*/
+
+/* Import the font declarations */
+@import url("../fonts/stylesheet.css");
+
+body {
+	background-image: url("../img/bg_tile.gif");
+	color: #fff;
+	font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	width: 100%;
+	height: 100%;
+}
+
+div#wrapper {
+	width: 925px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#header {
+	overflow: hidden;
+	height: 60px;
+	line-height: 60px;
+	margin-top: 55px;
+	margin-bottom: 28px;
+}
+
+div#header * {
+	float: left;
+}
+
+div#header h1 {
+	background-image: url("../img/logo.gif");
+	background-repeat: no-repeat;
+	width: 237px;
+	height: 60px;
+	line-height: 250px;
+	margin-left: 10px;
+	
+}
+
+ul#navigation {
+	font-family: BankGothic;
+	font-size: 15px;
+}
+
+ul#navigation li {
+	margin-left: 50px;
+}
+
+ul#navigation li a {
+	display: block;
+}
+
+ul#navigation li a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+ul#navigation li a:hover,
+ul#navigation li a.current {
+	color: #f7af46;
+}
+
+div#photo img {
+	width: 927px;
+	height: 278px;
+	margin-bottom: 30px;
+}
+
+div#columns div.col {
+	float: left;
+	margin-left: 28px;
+	width: 275px;
+	border-right: 5px #fbd69f solid;
+}
+
+div#columns div.col.end {
+	border-right: 0;
+}
+
+div#columns div.col p.date {
+	font-weight: bold;
+}
+
+div#columns div.col h2 {
+	color: #f8b046;
+	font-size: 20px;
+	margin-bottom: 7px;
+}
+
+div#columns div.col p {
+	line-height: 19px;
+	margin-bottom: 6px;
+}
+
+div#columns div.col p a:link {
+	color: #f7af46;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+div#columns div.col p a:link:after {
+	content: " »";
+	color: #fff;
+}
+
+div#footer {
+	background-image: url("../img/logo_sm.gif");
+	background-repeat: no-repeat;
+	padding-left: 137px;
+	clear: left;
+	font-size: 12px;
+}
+
+div#footer p {
+	clear: left;
+}
+
+ul#footer-nav li {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+ul#footer-nav li:after {
+	content: "|";
+	padding-left: 10px;
+}
+
+ul#footer-nav li a:link {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}

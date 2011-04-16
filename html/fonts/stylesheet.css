@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'BankGothic';
+    src: url('bankgothic-lt-bt-light-webfont.eot');
+    src: url('bankgothic-lt-bt-light-webfont.eot?#iefix') format('eot'),
+         url('bankgothic-lt-bt-light-webfont.woff') format('woff'),
+         url('bankgothic-lt-bt-light-webfont.ttf') format('truetype'),
+         url('bankgothic-lt-bt-light-webfont.svg#webfontqkeXzljY') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BankGothic';
+    src: url('bankgothic-md-bt-medium-webfont.eot');
+    src: url('bankgothic-md-bt-medium-webfont.eot?#iefix') format('eot'),
+         url('bankgothic-md-bt-medium-webfont.woff') format('woff'),
+         url('bankgothic-md-bt-medium-webfont.ttf') format('truetype'),
+         url('bankgothic-md-bt-medium-webfont.svg#webfontc0f9s3aJ') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
