@@ -114,6 +114,8 @@ div#footer {
 	padding-left: 137px;
 	clear: left;
 	font-size: 12px;
+	position: relative;
+	top: 35px;
 }
 
 div#footer p {
