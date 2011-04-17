@@ -44,6 +44,7 @@ div#header h1 {
 ul#navigation {
 	font-family: BankGothic;
 	font-size: 15px;
+	line-height: 82px;
 }
 
 ul#navigation li {
