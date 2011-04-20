@@ -98,7 +98,12 @@ div#header h1 {
 	width: 237px;
 	height: 60px;
 	line-height: 250px;
-	margin-left: 10px;
+}
+
+div#header h1 a {
+    display: block;
+    width: 237px;
+    height: 60px;
 }
 
 ul#navigation {
