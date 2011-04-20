@@ -54,14 +54,8 @@
 
 <body <?php body_class(); ?>>
     <div id="header" class="center">
-        <h1>Mani Osteria &amp; Bar</h1>
-        <ul id="navigation">
-            <li><a href="#" title="Home">Home</a></li>
-            <li><a href="#" title="About Us">About Us</a></li>
-            <li><a href="#" title="Menus">Menus</a></li>
-            <li><a href="#" title="News &amp; Events">News &amp; Events</a></li>
-            <li><a href="#" title="Contact Us">Contact Us</a></li>
-        </ul>
+        <h1><a href="<?php bloginfo("url"); ?>" title="Mani Osteria &amp; Bar">Mani Osteria &amp; Bar</a></h1>
+        <?php wp_nav_menu(array("theme_location" => "primary", "menu_id" => "navigation")); ?>
     </div><!-- #header -->
     
     <div id="content-wrapper">
