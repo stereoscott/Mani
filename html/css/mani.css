@@ -175,10 +175,16 @@ ul#footer-nav li.last {
 	border-right: 0;
 }
 
-ul#footer-nav li a:link {
+ul#footer-nav li a:link,
+ul#footer-nav li a:visited,
+ul#footer-nav li a:active {
 	color: #fff;
 	text-decoration: none;
 	font-weight: bold;
+}
+
+ul#footer-nav li a:hover {
+  color: #fbd69f;
 }
 
 br.clear {
