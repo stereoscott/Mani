@@ -18,17 +18,13 @@ get_header(); ?>
 <div id="columns" class="center">
 
     <div class="col">
-        <?php get_sidebar(); ?>
-    </div><!-- .col -->
+        <div id="primary" class="widget-area" role="complementary">
+    			<ul class="xoxo">
 
-    <div class="col">
-      <!-- this will be a recent news block. category posts widget perhaps ? -->
-        <h2>grand opening</h2>
-        <p class="date">april 17th, 2011</p>
-        <p>Lorem ipsum dolor sit amet, consectetur ad ipisicing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna 
-            aliqua. Filler text.</p>
-        <p><a href="#" title="Grand Opening">read more</a></p>
+            <?php dynamic_sidebar( 'home-widget-left' ); ?>
+
+    			</ul>
+    		</div><!-- #primary .widget-area -->
     </div><!-- .col -->
 
     <div class="col mid">
@@ -42,25 +38,15 @@ get_header(); ?>
 
     <div class="col end">
       <!-- another widget area for the home page -->
-        <h2>location &amp; hours</h2>
-        <p>
-            341 E. Liberty, Ann Arbor, MI 48104<br />
-            734.000.0000
-        </p>
-        <p>
-            <strong>Dinner:</strong> Tue-Sat 5:00pm-12:00am, Sun 5:00pm-10:00pm<br />
-            <strong>Lunch:</strong> Wed-Sat 11:00am-3:00pm
-        </p>
+      <div id="secondary" class="widget-area" role="complementary">
+    			<ul class="xoxo">
+
+            <?php dynamic_sidebar( 'home-widget-right' ); ?>
+
+    			</ul>
+    		</div><!-- #primary .widget-area -->
     </div><!-- .col end -->
-    
-    <?php
-	/* Run the loop to output the posts.
-	 * If you want to overload this in a child theme then include a file
-	 * called loop-index.php and that will be used instead.
-	 */
-	 get_template_part( 'loop', 'index' );
-	?>
-            
+                
     <br class="clear" />
 </div><!-- #columns -->
 
