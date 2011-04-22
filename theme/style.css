@@ -255,3 +255,10 @@ ul#footer-nav li a:hover {
 br.clear {
 	clear: both;
 }
+/* cforms */
+form.email label, span.emailreqtxt {
+  display: none;
+}
+p.linklove {
+  display: none;
+}
