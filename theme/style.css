@@ -186,6 +186,14 @@ div#columns div.col h2 {
 	margin-bottom: 7px;
 }
 
+div#columns div.col h2 a {
+  text-decoration: none;
+}
+
+div#columns div.col h2 a:hover {
+  text-decoration: underline;
+}
+
 div#columns div.col p a:link,
 div#columns div.col p a:visited {
 	color: #f7af46;
