@@ -70,6 +70,7 @@ body {
 
 a:link, a:visited, a:active {
   color: #f7af46;
+  text-decoration: none;
 }
 
 a:hover {
