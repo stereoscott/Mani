@@ -250,7 +250,8 @@ ul#footer-nav li {
 	border-right: 1px solid #fff;
 }
 
-ul#footer-nav li.last {
+ul#footer-nav li:last-child,
+li.menu-item-16 {
 	border-right: 0;
 }
 
