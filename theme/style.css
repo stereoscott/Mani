@@ -159,6 +159,11 @@ div#columns div.col {
 	float: left;
 	margin-left: 28px;
 	width: 242px;
+	height: 100%;
+}
+
+ul.xoxo li ul {
+    margin-bottom: 10px;
 }
 
 div#columns div.col.double {
