@@ -171,6 +171,15 @@ div#columns div.col.double {
 	width: 484px;
 }
 
+div#primary li.widget-container a:link,
+div#primary li.widget-container a:visited {
+    color: #fff;
+}
+
+div#primary li.widget-container a:hover {
+  color: #fbd69f;
+}
+
 div#columns div.col.mid,
 div#columns div.col.double,
 div#columns div.col.end {
