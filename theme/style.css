@@ -212,12 +212,17 @@ div#columns div.col p a:hover {
   color: #fbd69f;
 }
 
+div#columns div.col p.post-date {
+	text-transform: lowercase;
+}
+
 div#columns div.col p a:link:after {
 	content: " »";
 	color: #fff;
 }
 
 li.cat-post-item a.post-title {
+	text-transform: lowercase;
 	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
