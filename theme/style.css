@@ -172,6 +172,10 @@ div#columns div.col.end {
 	padding-left: 33px;
 }
 
+div#columns h2 {
+    text-transform: lowercase;
+}
+
 body.home div#columns div.col {
   min-height: 175px;
 }
