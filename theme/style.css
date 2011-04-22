@@ -157,17 +157,21 @@ div#columns div.col {
 	float: left;
 	margin-left: 28px;
 	width: 242px;
-	border-right: 5px #fbd69f solid;
-	padding-right: 33px;
 }
 
 div#columns div.col.double {
 	width: 484px;
-	border-right: 0;
 }
 
+div#columns div.col.mid,
+div#columns div.col.double,
 div#columns div.col.end {
-	border-right: 0;
+	border-left: 5px #fbd69f solid;
+	padding-left: 33px;
+}
+
+body.home div#columns div.col {
+  min-height: 175px;
 }
 
 div#columns div.col p {
