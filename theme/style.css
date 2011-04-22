@@ -1,3 +1,5 @@
+/* @override http://mani.local/wp-content/themes/mani/style.css */
+
 /*
 Theme Name: Mani
 Theme URI: 
@@ -213,6 +215,13 @@ div#columns div.col p a:hover {
 div#columns div.col p a:link:after {
 	content: " »";
 	color: #fff;
+}
+
+li.cat-post-item a.post-title {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 7px;
 }
 
 div#footer-wrapper {

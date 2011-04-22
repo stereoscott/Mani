@@ -141,7 +141,7 @@ add_filter( 'excerpt_length', 'twentyten_excerpt_length' );
  * @return string "Continue Reading" link
  */
 function twentyten_continue_reading_link() {
-	return ' <a href="'. get_permalink() . '">' . __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyten' ) . '</a>';
+	return ' <a href="'. get_permalink() . '">' . __( 'read more', 'twentyten' ) . '</a>';
 }
 
 /**
@@ -256,8 +256,8 @@ function mani_widgets_init() {
 		'description' => __( 'The primary widget area', 'twentyten' ),
 		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
 		'after_widget' => '</li>',
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<h2>',
+		'after_title' => '</h2>',
 	) );
 	
 	register_sidebar( array(
@@ -266,8 +266,8 @@ function mani_widgets_init() {
 		'description' => 'The left widget area',
 		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
 		'after_widget' => '</li>',
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<h2 style="display: none;">',
+		'after_title' => '</h2>',
 	) );
 	
 	register_sidebar( array(
@@ -276,8 +276,8 @@ function mani_widgets_init() {
 		'description' => 'The right widget area',
 		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
 		'after_widget' => '</li>',
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
+		'before_title' => '<h2>',
+		'after_title' => '</h2>',
 	) );
 	
 	register_sidebar( array(
