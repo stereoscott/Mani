@@ -1,3 +1,5 @@
+/* @override http://mani.local/wp-content/themes/mani/style.css */
+
 /*
 Theme Name: Mani
 Theme URI: 
@@ -68,6 +70,7 @@ body {
 
 a:link, a:visited, a:active {
   color: #f7af46;
+  text-decoration: none;
 }
 
 a:hover {
@@ -157,10 +160,24 @@ div#columns div.col {
 	float: left;
 	margin-left: 28px;
 	width: 242px;
+	height: 100%;
+}
+
+ul.xoxo li ul {
+    margin-bottom: 10px;
 }
 
 div#columns div.col.double {
 	width: 484px;
+}
+
+div#primary li.widget-container a:link,
+div#primary li.widget-container a:visited {
+    color: #fff;
+}
+
+div#primary li.widget-container a:hover {
+  color: #fbd69f;
 }
 
 div#columns div.col.mid,
@@ -168,6 +185,10 @@ div#columns div.col.double,
 div#columns div.col.end {
 	border-left: 5px #fbd69f solid;
 	padding-left: 33px;
+}
+
+div#columns h2 {
+    text-transform: lowercase;
 }
 
 body.home div#columns div.col {
@@ -210,9 +231,21 @@ div#columns div.col p a:hover {
   color: #fbd69f;
 }
 
+div#columns div.col p.post-date {
+	text-transform: lowercase;
+}
+
 div#columns div.col p a:link:after {
 	content: " »";
 	color: #fff;
+}
+
+li.cat-post-item a.post-title {
+	text-transform: lowercase;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 7px;
 }
 
 div#footer-wrapper {
@@ -241,7 +274,8 @@ ul#footer-nav li {
 	border-right: 1px solid #fff;
 }
 
-ul#footer-nav li.last {
+ul#footer-nav li:last-child,
+li.menu-item-16 {
 	border-right: 0;
 }
 

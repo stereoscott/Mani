@@ -18,7 +18,7 @@ get_header(); ?>
 <div id="columns" class="center">
 
     <div class="col">
-        <div id="primary" class="widget-area" role="complementary">
+        <div class="widget-area" role="complementary">
     			<ul class="xoxo">
 
             <?php dynamic_sidebar( 'home-widget-left' ); ?>
